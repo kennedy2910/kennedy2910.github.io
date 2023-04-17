@@ -688,7 +688,7 @@ body > footer .copyrights {
 }
 @media only screen and (min-width: 991px) {
   .qrcode {
-    position: absolute;
+    /*position: absolute;*/
     width: 10em;
     margin-top: -9em;
   }
@@ -882,7 +882,7 @@ img.photo-perfil {
 }
 
 .qrcode {
-  position: absolute;
+  /*position: absolute;*/
   width: 10em;
   margin-left: 51em;
   margin-top: -8em;

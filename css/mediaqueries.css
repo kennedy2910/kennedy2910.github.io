@@ -1,0 +1,12 @@
+
+
+
+@media screen and (min-width: 768px ) {
+    .qrcode {
+        margin: 0px !important;
+        margin-top: 5px !important;
+        margin-left: auto !important;
+        margin-bottom: -114px !important;
+        margin-right: -10px !important;
+    }
+}
