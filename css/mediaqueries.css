@@ -9,4 +9,8 @@
         margin-bottom: -114px !important;
         margin-right: -10px !important;
     }
+
+    .social-links {
+        display: block;
+    }
 }
