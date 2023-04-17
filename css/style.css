@@ -11,3 +11,26 @@
 .social-links {
     display: none;
 }
+
+.menu-mobile {
+    margin-top: -47px !important;
+    margin-right: -25px !important;
+    display: block;
+}
+
+.close-menu {
+    position: fixed !important;
+}
+
+.pt-trigger:hover {
+    text-decoration: underline !important;
+}
+
+.btn-back {
+    color: white;
+    margin-top: -33px !important;
+}
+
+.btn-back:hover {
+    color: white;
+}

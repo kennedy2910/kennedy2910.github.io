@@ -14,3 +14,15 @@
         display: block;
     }
 }
+
+
+@media screen and (max-width: 990px ) {
+    .material-template {
+        margin-top: -50px;
+    }
+
+    header#site_header {
+        margin-top: -50px;
+        height: 100vh;
+    }
+}
