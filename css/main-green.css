@@ -686,6 +686,15 @@ body > footer .copyrights {
     margin-top: 13px;
   }
 }
+@media only screen and (min-width: 991px) {
+  .qrcode {
+    position: absolute;
+    width: 10em;
+    margin-top: -9em;
+  }
+}
+ 
+
 
 .site-main-menu li a,
 .site-main-menu li a:hover {
@@ -839,7 +848,7 @@ body > footer .copyrights {
 ======================================= */
 .start-page-content .page-header {
   position: relative;
-  background-color: #2eca7f;
+  background-color: #27439e;
   padding: 50px;
   margin-bottom: 25px;
   background-image: url(../images/sp_main_bg.png);
@@ -863,6 +872,20 @@ body > footer .copyrights {
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+img.photo-perfil {
+  border-radius: 100%;
+}
+.photo {
+  border-radius: 100%;
+}
+
+.qrcode {
+  position: absolute;
+  width: 10em;
+  margin-left: 51em;
+  margin-top: -8em;
 }
 
 .start-page-content .page-header .photo:hover {
@@ -982,7 +1005,7 @@ body > footer .copyrights {
   margin-left: 20px;
   margin-bottom: 20px;
   background-color: #fff;
-  border-left: 2px solid #2eca7f;
+  border-left: 2px solid #357eec;
   box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
 }
 
@@ -1004,7 +1027,7 @@ body > footer .copyrights {
   height: 12px;
   top: 20px;
   left: -29px;
-  border: 2px solid #2eca7f;
+  border: 2px solid #357eec;
   z-index: 2;
 }
 
@@ -1012,7 +1035,7 @@ body > footer .copyrights {
   content: '';
   display: inline-block;
   position: absolute;
-  background-color: #2eca7f;
+  background-color: #357eec;
   border-radius: 10px;
   width: 29px;
   height: 2px;
@@ -1032,7 +1055,7 @@ body > footer .copyrights {
   display: inline-block;
   font-size: 12px;
   line-height: 1.2em;
-  color: #2eca7f;
+  color: #357eec;
   margin-bottom: 8px;
 }
 
@@ -1073,7 +1096,7 @@ body > footer .copyrights {
 }
 
 .skill-percentage {
-  background-color: #2eca7f;
+  background-color: #357eec;
   height: 10px;
   padding: 0;
 }
@@ -1180,7 +1203,7 @@ body > footer .copyrights {
   font-size: 48px;
   line-height: 80px;
   color: #fff;
-  background-color: #2eca7f;
+  background-color: #357eec;
   width: 80px;
   height: 80px;
   border-radius: 100px;
@@ -1255,7 +1278,7 @@ body > footer .copyrights {
   font-weight: 400;
   display: block;
   margin: 10px 0;
-  color: #2eca7f;
+  color: #357eec;
 }
 /* /Fun Facts */
 
@@ -1303,7 +1326,7 @@ body > footer .copyrights {
   padding: 2.2em 1.2em 1.5em;
   font-style: italic;
   border: 1px solid #e0e0e0;
-  border-top: 2px solid #2eca7f;
+  border-top: 2px solid #357eec;
   width: 100%;
   position: relative;
   margin: 0;
@@ -1387,7 +1410,7 @@ body > footer .copyrights {
   content: '';
   height: 2px;
   margin-top: 0;
-  background-color: #2eca7f;
+  background-color: #357eec;
   position: absolute;
   left: 0;
   bottom: -3px;
@@ -1464,7 +1487,7 @@ body > footer .copyrights {
 
 .portfolio-filters li.active a,
 .portfolio-filters li.active a:hover {
-  background-color: #2eca7f;
+  background-color: #357eec;
   color: #fff;
 }
 
